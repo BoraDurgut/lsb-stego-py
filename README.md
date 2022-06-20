@@ -1,4 +1,4 @@
-# lsb-stego-py
+# LSB Steganography 
  LSB yöntemini kullanarak PNG türü bir görüntüde şifrelenmiş bir mesajı gizlemenize olanak tanır.  Mesaj önce RSA-CBC-256 kullanılarak şifrelenir ve ardından PNG görüntüsünün düşük sıralı bitlerinde gizlenir.
 
 Renkli görüntüler, her piksel için 0-255 piksel değerlerine sahip üç renk kanalına (RGB) sahiptir. Üst aralık 255, 8 bit ikili sayı ile temsil edilebilecek en büyük değerdir. 10001011 gibi 139 ondalık bir değere eşit olan bir ikili sayıda, soldaki ilk rakam en anlamlı bit (MSB) olarak tanımlanır ve sağdaki son rakam doğu anlamlı biti (LSB) olarak tanımlanır. aşağıdaki örnek daha iyi açıklıyor
